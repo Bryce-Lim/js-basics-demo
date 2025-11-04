@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>04 — Mini Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JavaScript Follow‑Along — 04 Mini Project</h1>
+    <p>Goal: put variables + DOM + events together.</p>
+  </header>
+  <main>
+    <section class="card">
+      <div class="grid">
+        <div class="kv"><b>name</b><span id="nameOut">—</span></div>
+        <div class="kv"><b>clicks</b><span id="clicksOut">0</span></div>
+        <div class="kv"><b>mode</b><span id="modeOut">light</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <input id="nameInput" type="text" placeholder="Enter your name" />
+        <button id="setNameBtn">Set Name</button>
+        <button id="clickBtn">Click Me</button>
+        <button id="colorBtn">Random Background</button>
+        <button id="modeBtn">Toggle Dark Mode</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Action Log</h3>
+      <div id="log" class="log"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
