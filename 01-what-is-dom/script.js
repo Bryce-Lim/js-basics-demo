@@ -1,5 +1,5 @@
 
-// Slide 6 — What is the DOM
+// 01 — What is the DOM
 let nameEl = document.getElementById('name');
 const profileEl = document.getElementById('profile');
 const changeNameBtn = document.getElementById('changeNameBtn');

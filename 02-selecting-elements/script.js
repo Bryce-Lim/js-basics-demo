@@ -1,5 +1,5 @@
 
-// Slide 7 — Selecting Elements
+// 02 — Selecting Elements
 const byIdBtn = document.getElementById('byIdBtn');
 const byClassBtn = document.getElementById('byClassBtn');
 const byTagBtn = document.getElementById('byTagBtn');

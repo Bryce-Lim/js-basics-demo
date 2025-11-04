@@ -1,5 +1,5 @@
 
-// Slide 8 — Events
+// 03 - Events and Listeners
 const clickBtn = document.getElementById('clickBtn');
 const nameInput = document.getElementById('nameInput');
 const msg = document.getElementById('msg');

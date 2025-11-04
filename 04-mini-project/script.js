@@ -1,5 +1,5 @@
 
-// Slide 9 — Mini Project
+// 04 — Mini Project
 const message = document.getElementById('message');
 const btn = document.getElementById('btn');
 const resetBtn = document.getElementById('resetBtn');

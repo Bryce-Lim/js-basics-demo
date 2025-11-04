@@ -1,5 +1,5 @@
 
-// Slide 10 — Debugging & Recap
+// 05 — Debugging & Recap
 const logBtn = document.getElementById('logBtn');
 const bugToggle = document.getElementById('bugToggle');
 const runBtn = document.getElementById('runBtn');
@@ -14,7 +14,7 @@ logBtn.addEventListener('click', () => {
 runBtn.addEventListener('click', () => {
   try {
     if (bugToggle.checked) {
-      // Intentional ReferenceError for teaching
+      // Intentional ReferenceError
       // eslint-disable-next-line no-undef
       console.log(notDefinedVar + 1);
     } else {
