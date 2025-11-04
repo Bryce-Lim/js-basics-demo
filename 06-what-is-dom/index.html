@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slide 6 — What is the DOM</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <a href="../index.html">← Back</a>
+    <h1>Slide 6 — What is the DOM?</h1>
+    <p class="note">The DOM is the live, in‑memory tree the browser builds from your HTML. JavaScript can read and change it.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>HTML → DOM Tree</h2>
+      <pre>&lt;section id="profile"&gt;
+  &lt;h2&gt;Ada Lovelace&lt;/h2&gt;
+  &lt;p class="role"&gt;First programmer&lt;/p&gt;
+&lt;/section&gt;</pre>
+      <div class="demo" id="profile">
+        <h2 id="name">Ada Lovelace</h2>
+        <p class="role">First programmer</p>
+      </div>
+      <div class="row" style="margin-top:10px;">
+        <button class="btn" id="changeNameBtn">Change Name</button>
+        <button class="btn" id="addFactBtn">Add Fact</button>
+        <button class="btn" id="resetBtn">Reset</button>
+      </div>
+      <p class="note">Open DevTools → Elements. Watch nodes change as you press the buttons.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

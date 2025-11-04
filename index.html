@@ -1,27 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JavaScript Basics Demo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JavaScript Follow‑Along Demos</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>JavaScript Basics Demo</h1>
-    <p>Watch JavaScript variables change in real-time.</p>
+    <h1>JavaScript Follow‑Along Demos</h1>
+    <p class="note">Open each demo in order and live‑code edits with the class. (Works in any modern browser.)</p>
   </header>
-
-  <section class="card">
-    <h2>👤 Variables</h2>
-
-    <p><strong>Student Name:</strong> <span id="studentName"></span></p>
-    <p><strong>Current Score:</strong> <span id="scoreValue"></span></p>
-
-    <button id="increaseScoreBtn">Increase Score</button>
-    <button id="changeNameBtn">Change Name</button>
-  </section>
-
-  <script src="script.js"></script>
+  <main>
+    <section class="card">
+      <h2>Pick a demo</h2>
+      <div class="grid">
+        <a class="btn-link" href="06-what-is-dom/index.html"><span class="badge">1</span> What is the DOM</a>
+        <a class="btn-link" href="07-selecting-elements/index.html"><span class="badge">2</span> Selecting Elements</a>
+        <a class="btn-link" href="08-events/index.html"><span class="badge">3</span> Events &amp; Handlers</a>
+        <a class="btn-link" href="09-mini-project/index.html"><span class="badge">4</span> Mini Project</a>
+        <a class="btn-link" href="10-debugging-recap/index.html"><span class="badge">5</span> Debugging &amp; Recap</a>
+      </div>
+    </section>
+    <section class="card">
+      <h2>How to run</h2>
+      <ol>
+        <li>Open this folder in VSCode.</li>
+        <li>Right‑click <span class="hl">index.html</span> → Open with Live Server (or double‑click to open in a browser).</li>
+        <li>For each section, open the matching folder and live‑edit <span class="hl">script.js</span>.</li>
+      </ol>
+    </section>
+  </main>
 </body>
 </html>

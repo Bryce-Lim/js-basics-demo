@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slide 10 — Debugging & Recap</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <a href="../index.html">← Back</a>
+    <h1>Slide 10 — Debugging & Recap</h1>
+    <p class="note">Open DevTools → Console. Look for red errors. Use <code>console.log</code> to inspect values.</p>
+  </header>
+  <main>
+    <section class="card">
+      <div class="row">
+        <button class="btn" id="logBtn">console.log demo</button>
+        <label><input type="checkbox" id="bugToggle" /> Introduce a bug</label>
+        <button class="btn" id="runBtn">Run buggy code</button>
+      </div>
+      <div class="grid" style="margin-top:12px">
+        <div class="kv"><b>Task</b>
+          <ol>
+            <li>Click <em>console.log demo</em> and watch the console.</li>
+            <li>Enable <em>Introduce a bug</em>, then click <em>Run buggy code</em>.</li>
+            <li>Read the red error, click the filename to jump to the line.</li>
+          </ol>
+        </div>
+        <div class="kv">
+          <b>Tip</b>
+          <p>Breakpoints: DevTools → Sources → Click line number to pause execution.</p>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Recap ✅</h2>
+      <ul>
+        <li>Variables & functions</li>
+        <li>DOM selection & manipulation</li>
+        <li>Events and handlers</li>
+        <li>Debugging with the Console</li>
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
